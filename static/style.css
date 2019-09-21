@@ -1,0 +1,22 @@
+.content {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 0px 20px;
+  margin: 40px 0;
+}
+
+.footer__inner {
+  flex-direction: column;
+}
+
+.footer .fa {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.footer .copyright {
+  font-size: 0.7em;
+  margin: 10px;
+}

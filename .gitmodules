@@ -1,3 +1,6 @@
 [submodule "themes/highlights"]
 	path = themes/highlights
 	url = https://github.com/schmanat/hugo-highlights-theme.git
+[submodule "themes/hello-friend"]
+	path = themes/hello-friend
+	url = https://github.com/mangokittty/hugo-theme-hello-friend.git
