@@ -11,6 +11,7 @@ tags:
   - monitoring
   - benchmarking
   - bwbble
+  - bioinformatics
 ---
 
 After much deliberation, I’ve settled on a final year project and have planned and specked it out with the help of Azure DevOps. There was an opportunity to implement ESNI (Encrypted Server Name Indicator) into NGINX as part of an IETF draft. I’d love to hack away at this and hope to do so in my free time, however I’ve decided to take a project to deploy “BWBBLE”, a read-alignment program, to Kubernetes and extend the proposal to involve automating the parallel alignment of DNA to reduce the time taken for geneticists to perform a BWBBLE alignment job. This will be done using modern job orchestration tools and patterns paired with a simple and easy to use interface for the geneticists to interact with.
