@@ -2,6 +2,7 @@
 title: "Showcase"
 date: "2019-01-18"
 author: "Lorem Ipsum"
+draft: "true"
 ---
 
 ## Header 2
@@ -41,20 +42,22 @@ pre {
 ```js
 // JS code
 
-const menuTrigger = document.querySelector('.menu-trigger')
-const menu = document.querySelector('.menu')
-const mobileQuery = getComputedStyle(document.body).getPropertyValue('--phoneWidth')
-const isMobile = () => window.matchMedia(mobileQuery).matches
+const menuTrigger = document.querySelector(".menu-trigger");
+const menu = document.querySelector(".menu");
+const mobileQuery = getComputedStyle(document.body).getPropertyValue(
+  "--phoneWidth"
+);
+const isMobile = () => window.matchMedia(mobileQuery).matches;
 const isMobileMenu = () => {
-  menuTrigger.classList.toggle('hidden', !isMobile())
-  menu.classList.toggle('hidden', isMobile())
-}
+  menuTrigger.classList.toggle("hidden", !isMobile());
+  menu.classList.toggle("hidden", isMobile());
+};
 
-isMobileMenu()
+isMobileMenu();
 
-menuTrigger.addEventListener('click', () => menu.classList.toggle('hidden'))
+menuTrigger.addEventListener("click", () => menu.classList.toggle("hidden"));
 
-window.addEventListener('resize', isMobileMenu)
+window.addEventListener("resize", isMobileMenu);
 ```
 
 ```html
@@ -62,10 +65,8 @@ window.addEventListener('resize', isMobileMenu)
 
 <section id="main">
   <div>
-   <h1 id="title">{{ .Title }}</h1>
-    {{ range .Pages }}
-      {{ .Render "summary"}}
-    {{ end }}
+    <h1 id="title">{{ .Title }}</h1>
+    {{ range .Pages }} {{ .Render "summary"}} {{ end }}
   </div>
 </section>
 ```
