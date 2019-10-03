@@ -3,7 +3,7 @@ title: "Automated docker image builds in Azure DevOps"
 date: 2019-09-21T20:37:20+01:00
 draft: false
 author: Aideen
-description: How to setup automated docker image.
+description: A guideline on how to setup autobuilds for your Docker images.
 cover:
 tags:
   - Docker
