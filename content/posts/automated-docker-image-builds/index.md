@@ -14,7 +14,7 @@ tags:
   - containers
 ---
 
-As part the initial steps of my project to get BWBBLE deployed on Kubernetes, I created two Docker images - one for the aligner part of the program and another for building the multi-reference genome.
+As part the initial steps of my project to get BWBBLE deployed on Kubernetes, I created two Docker images - one for the aligner part of the program which actually aligns the "reads" against the multireference genome and another for building the multi-reference genome.
 
 We decided to use Azure DevOps to automate our docker image builds. Why would you do this? Setting up "autobuilds" means that Azure pipelines re-builds your docker images everytime you make commits to your source code and pushes the built image/images to your Docker repositories, whether that be the DockerHub Registry, Google Container Registry or the Azure Container Registry. In my case, I used the DockerHub registry so my guideline will be written from the perspective of using Azure pipelines to push images to the DockerHub registry.
 
