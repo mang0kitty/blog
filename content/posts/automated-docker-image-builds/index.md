@@ -5,6 +5,7 @@ draft: false
 author: Aideen
 description: A guideline on how to setup autobuilds for your Docker images.
 cover:
+showReadingTime: true
 tags:
   - Docker
   - AzureDevOps
