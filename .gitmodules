@@ -3,4 +3,4 @@
 	url = https://github.com/schmanat/hugo-highlights-theme.git
 [submodule "themes/hello-friend"]
 	path = themes/hello-friend
-	url = https://github.com/mangokittty/hugo-theme-hello-friend.git
+	url = https://github.com/mang0kitty/hugo-theme-hello-friend.git
