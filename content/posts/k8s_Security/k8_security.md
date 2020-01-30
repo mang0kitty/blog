@@ -1,7 +1,7 @@
 ---
 title: "My notes on Kubernetes Security"
 date: 2020-01-13T20:37:20+01:00
-draft: false
+draft: true
 author: Aideen
 description: A compilation of my what I'm learning about Kubernetes Security.
 cover:
