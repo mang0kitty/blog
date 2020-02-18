@@ -3,7 +3,7 @@ title: "My notes on Kubernetes Security"
 date: 2020-01-13T20:37:20+01:00
 draft: false
 author: Aideen
-description: A compilation of my what I'm learning about Kubernetes Security.
+description: Security in Kubernetes gets interesting as it's both a distributed system and API-based platform - meaning different attack surfaces. Here is an overview of some basic attack vectors in Kubernetes.
 cover:
 tags:
   - kubernetes
