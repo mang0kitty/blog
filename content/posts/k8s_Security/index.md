@@ -17,6 +17,8 @@ An attacker won't look at your cluster as a list of resources, but as a graph. T
 
 Bellow I have listed a few Kubernetes attack vectors I have come across. An **attack vector** is a path by means a hacker can gain access to a computer or network server in order to deliver a payload or malicious outcome. Attack vectors enable hackers to exploit system vulnerabilities, including the human element.
 
+![](K8s_Architecture_AttackVectors.png)
+
 #### Access to Nodes and Virtual Machines
 
 Since Kubernetes nodes are bare-metal or virtual hosts, hackers mat use point of entry to the host, such as ports open for shell access, to gain control of the system. Once inside, the attacker may inject malicious code and other vulnerabilities that would be used to further compromise this system and others on the network as well as siphon off data and other cyber assets.
