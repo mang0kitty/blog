@@ -38,29 +38,31 @@ In the advent of Web 3.0, the decentralized web focuses on a peer to peer archit
 Large centralized systems are optimized for serving dynamic content and database consistency. In every distributed system you must balance throughput, latency, availability and consistency. The PACELC theorem is an extension of the CAP theorem and states that in case of network partitioning (P) in a distributed computer system, one has to choose between availability (A) and consistency (C) but else (E), even when the system is running normally in the absence of partitions, one has to choose between latency (L) and consistency (C)19. CRDT20 or Conflict-free replicated data type is a solution to the partition consistency problem in decentralized systems. Here write-consistency becomes less of problem but meeting global read consistency is almost impossible, and even if consistency is achieved, latency would be off the charts. Bitcoin21 is a great case study of this. Being a decentralized transaction exchange, it must be consistent. Bitcoin tried to balance consistency against latency using generations. The result is that latency is high, but throughput is very low. Can such a model replace the likes of Mastercard or Visa? Centralized systems have economies of scale by centralizing their work and minimising the energy needed. On the other hand, decentralized systems operating at the same scale with our current hardware, consume much more energy than their centralized counterparts contributing more negatively to the environment.
 
 As we talk about what the future of the internet and internet applications will look like, a quote by the futurist Irwin Corey lives at the forefront of my mind:
-->_If we don’t change direction now, we’ll end up where we’re going_<-
+
+                   *If we don’t change direction now, we’ll end up where we’re going*
+
 Some 30 years ago, Tim Berners-Lee invented the World Wide Web. Today, we need to future-proof the web prioritizing privacy of personal data and giving power to individual networks. No matter what, one thing is for certain and that’s the demand for our systems to be reliable, scalable, efficient and secure is only going to grow. For me, the future of internet applications lies in the orchestration tools and pattens that will run ensure and enable the delivery, maintenance and management of these systems.
 
 ## References
 
-[1] https://www.ibm.com/blogs/cloud-computing/2014/03/18/a-brief-history-of-cloud-computing-3/
-[2] https://www.ibm.com/it-infrastructure/z/capabilities/virtualization
-[3] https://kuberneteslaunch.com/
-[4] https://pdos.csail.mit.edu/6.824/papers/borg.pdf
-[5] https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41684.pdf
-[6] https://www.kubeflow.org/
-[7] https://cloud.google.com/knative/
-[8] https://spotinst.com/
-[9] https://developer.ibm.com/open/projects/openwhisk/
-[10] https://workers.cloudflare.com/
-[11] https://www.cloudflare.com/learning/cdn/what-is-a-cdn/
-[12] https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-andoperations-leaders/
-[13] https://mastodon.social/about
-[14] https://beakerbrowser.com/
-[15] https://blockstack.org/
-[16] https://ipfs.io/
-[17] https://filecoin.io/
-[18] https://storj.io/
-[19] https://en.wikipedia.org/wiki/PACELC_theorem
-[20] https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
-[21] https://bitcoin.org/en/
+[1] https://www.ibm.com/blogs/cloud-computing/2014/03/18/a-brief-history-of-cloud-computing-3/<br/>
+[2] https://www.ibm.com/it-infrastructure/z/capabilities/virtualization<br/>
+[3] https://kuberneteslaunch.com/<br/>
+[4] https://pdos.csail.mit.edu/6.824/papers/borg.pdf<br/>
+[5] https://storage.googleapis.com/pub-tools-public-publication-data/pdf/41684.pdf<br/>
+[6] https://www.kubeflow.org/<br/>
+[7] https://cloud.google.com/knative/<br/>
+[8] https://spotinst.com/<br/>
+[9] https://developer.ibm.com/open/projects/openwhisk/<br/>
+[10] https://workers.cloudflare.com/<br/>
+[11] https://www.cloudflare.com/learning/cdn/what-is-a-cdn/<br/>
+[12] https://www.gartner.com/smarterwithgartner/what-edge-computing-means-for-infrastructure-andoperations-leaders/<br/>
+[13] https://mastodon.social/about<br/>
+[14] https://beakerbrowser.com/<br/>
+[15] https://blockstack.org/<br/>
+[16] https://ipfs.io/<br/>
+[17] https://filecoin.io/<br/>
+[18] https://storj.io/<br/>
+[19] https://en.wikipedia.org/wiki/PACELC_theorem<br/>
+[20] https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type<br/>
+[21] https://bitcoin.org/en/<br/>
